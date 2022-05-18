@@ -53,11 +53,9 @@ function createCanvas() {
   function changeTheme(darkMode){
     if(darkMode == 'dark') {
       $('.button').css('background-color','#000');
-      $('.button').children().removeClass('btn-dark').addClass('btn-light');
       $('.content').css({'background-color':'#000','color':'#fff'});
     } else if(darkMode == 'light') {
       $('.button').css('background-color','#fff');
-      $('.button').children().removeClass('btn-light').addClass('btn-dark');
       $('.content').css({'background-color':'#fff','color':'#000'});
     }
   }
