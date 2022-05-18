@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    transform: translate(250%, 2
+    50%);
+    margin: auto;
+
+}
+.box::after{
+    background-color: green;
+transform: translate(-20%, -20%);
+}
+.box::before{
+    background-color: yellow;
+line-height: 200px;
+}
+
+
+

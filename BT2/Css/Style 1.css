@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -19,12 +18,13 @@ body {
 
 header {
     min-width: 800px;
+    height: 85%;
     background: linear-gradient(64deg, rgba(19,70,117,1) 0%, rgba(71,102,148,1) 79%);
     margin: auto;
 }
 
 img {
-
+    height: 85%;
     width: 100%;
 }
 
