@@ -74,6 +74,10 @@ img{
     background-color: #e2e6ea;
     border-color: #dae0e5;
   }
+  #canvas{
+    width:"400";
+     height:"20";
+}
 
 
 
